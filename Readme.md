@@ -39,5 +39,5 @@ Aggregates data in memory buffer and flushes it to a file periodically or when t
 2. **Start the Node:**
 
     ```bash
-    go run ./cmd/node -rate=5 -name=sensor_1
+    go run ./cmd/node -node_addr=localhost:8080 -rate=1 -sensor_name=sensor_1
     ```
